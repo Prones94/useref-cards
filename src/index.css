@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.app {
+  padding: 20px;
+}
+
+.card-container img {
+  width: 200px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.draw-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.draw-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
